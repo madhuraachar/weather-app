@@ -8,7 +8,7 @@ init = () => {
     weather2.textContent = '';
 }
 getWeatherDetails = (address) => {
-    fetch(`http://localhost:4200/weather?address=${address}`).then(response => {
+    fetch(`/weather?address=${address}`).then(response => {
     //console.log(response.body)// will be in buffer
         response.json().then(data => {
             if(data.error) {
