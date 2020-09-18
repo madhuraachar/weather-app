@@ -1,4 +1,4 @@
-//console.log("Client side javascript")
+
 const searchEl = document.querySelector('input');
 const weather1 = document.querySelector('#weather1');
 const weather2 = document.querySelector('#weather2');
